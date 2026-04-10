@@ -12,3 +12,7 @@
 .font-vol {
   font-family: var(--font-vol);
 }
+
+.shadowNew {
+  box-shadow: 8px 8px 20px 3px rgba(147, 147, 147, 0.13);
+}

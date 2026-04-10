@@ -11,7 +11,7 @@ const jost = Jost({
 
 const vol = Vollkorn({
   variable: "--font-vol",
-  weight: ["400", "500", "600", "700"],
+  weight: ["400", "500", "600", "700" , "800"],
   subsets: ["latin"],
 });
 
