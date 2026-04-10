@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primarys: #E5745D;
+  --color-secondarys: #00413D;
+}
+
+.font-jost {
+  font-family: var(--font-jost);
+}
+
+.font-ows {
+  font-family: var(--font-ows);
+}
