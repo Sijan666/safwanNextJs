@@ -1,4 +1,4 @@
-import { Jost, Oswald } from "next/font/google";
+import { Jost, Oswald, Vollkorn } from "next/font/google";
 import "./globals.css";
 import Navber from "@/layouts/Navber";
 
@@ -9,8 +9,8 @@ const jost = Jost({
   subsets: ["latin"],
 });
 
-const Ows = Oswald({
-  variable: "--font-ows",
+const vol = Vollkorn({
+  variable: "--font-vol",
   weight: ["400", "500", "600", "700"],
   subsets: ["latin"],
 });
@@ -23,9 +23,9 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${jost.variable} ${Ows.variable} h-full antialiased`}
+      className={`${jost.variable} ${vol.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="flex flex-col">
         <Navber/>
         {children}
       </body>
