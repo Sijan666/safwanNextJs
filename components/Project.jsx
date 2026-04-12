@@ -11,10 +11,10 @@ export default function Project({className , projectImg , heading , title , deta
                 <h4 className='text-primarys font-vol text-base font-medium'>{heading}</h4>
                 <h3 className='pt-2.5 text-[24px] font-medium font-vol text-secondarys'>{title}</h3>
                 <p className='text-base pt-2.5 pb-6 text-secondarys font-jost'>{details}</p>
-                <div className="flex items-center gap-x-1.5 font-medium font-jost text-lg text-secondarys group-hover:text-primarys">
-                    <button>{btn}</button>
-                    <FaArrowRight />
-                </div>
+                <button className='cursor-pointer flex items-center gap-x-1.5 font-medium font-jost text-lg text-secondarys group-hover:text-primarys duration-300'>
+                    {btn}
+                    <FaArrowRight/>
+                </button>
             </div>
         </div>
         </>
