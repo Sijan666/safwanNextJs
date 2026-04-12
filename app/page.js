@@ -4,6 +4,7 @@ import React from 'react'
 import Services from '@/layouts/Services'
 import About from '@/layouts/About'
 import Projects from '@/layouts/Projects'
+import Work from '@/layouts/Work'
 
 export default function page() {
   return (
@@ -12,6 +13,7 @@ export default function page() {
       <Services/>
       <About/>
       <Projects/>
+      <Work/>
     </>
   )
 }
