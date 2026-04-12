@@ -7,7 +7,7 @@ export default function Project({className , projectImg , heading , title , deta
         <>
         <div className={`${className} group shadowNew2`}>
             <Image src={projectImg} alt='projectImage'/>
-            <div className="mt-5 p-8.25">
+            <div className="mt-5 p-4 lg:p-8.25">
                 <h4 className='text-primarys font-vol text-base font-medium'>{heading}</h4>
                 <h3 className='pt-2.5 text-[24px] font-medium font-vol text-secondarys'>{title}</h3>
                 <p className='text-base pt-2.5 pb-6 text-secondarys font-jost'>{details}</p>
