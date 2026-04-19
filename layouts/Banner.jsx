@@ -6,7 +6,7 @@ export default function Banner() {
     return (
         <>
         <section id='banner'>
-            <div className="bg-[url('../public/bannerImg.png')] bg-center bg-cover bg-no-repeat py-20 lg:py-52.75">
+            <div className="bg-[url('../public/bannerImg.png')] bg-center bg-cover bg-no-repeat py-30 lg:py-55">
                 <Container>
                     <h2 className='lg:text-[100px] text-[50px] text-center lg:text-left font-bold font-vol text-white leading-tight'>Hello!</h2>
                     <h1 className='lg:text-[100px] text-[50px] text-center lg:text-left font-bold font-vol text-white leading-tight'>I’m Zarror Nibors</h1>
