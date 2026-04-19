@@ -49,7 +49,7 @@ export default function Projects() {
                         <h4 className='text-primarys text-lg font-medium font-vol text-center tracking-[2%]'>Recent Projects</h4>
                     </div>
                     <div className="mt-2">
-                        <h3 className='lg:text-[50px] text-[25px] font-medium text-secondarys font-vol'>My Recent Projects</h3>
+                        <h3 className='lg:text-[50px] text-[40px] font-medium text-secondarys font-vol'>My Recent Projects</h3>
                     </div>
                     {/* projects */}
                     <div className="projects mt-10">
