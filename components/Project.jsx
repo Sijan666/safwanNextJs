@@ -5,7 +5,7 @@ import { FaArrowRight } from 'react-icons/fa6'
 export default function Project({className , projectImg , heading , title , details , btn}) {
     return (
         <>
-        <div className={`${className} group shadowNew2`}>
+        <div className={`${className} group shadowNew`}>
             <Image src={projectImg} alt='projectImage'/>
             <div className="mt-5 p-4 lg:p-8.25">
                 <h4 className='text-primarys font-vol text-base font-medium'>{heading}</h4>
