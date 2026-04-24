@@ -1,6 +1,12 @@
+'use client'
+
 import Container from '@/components/Container'
 import Review from '@/components/Review'
 import React from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Pagination } from 'swiper/modules';
 
 export default function Feedback() {
 
@@ -31,7 +37,6 @@ export default function Feedback() {
         },
     ]
 
-
     return (
         <>
         <section id='feedback'>
@@ -46,18 +51,30 @@ export default function Feedback() {
                         <h4 className='text-primarys text-lg font-medium font-vol text-center tracking-[2%]'>Client Testimonial</h4>
                     </div>
                     <h3 className='text-center text-[40px] lg:text-[50px] text-secondarys font-medium font-vol lg:px-75 pt-2.75 leading-15'>Feedback From Client</h3>
-                    <div className="mt-10">
-                        <div className="grid lg:grid-cols-2 gap-7.5">
+                    
+                    <div className="mt-10 pb-10">
+                        <Swiper
+                            modules={[Pagination]}
+                            spaceBetween={30}
+                            slidesPerView={1}
+                            pagination={{ clickable: true }}
+                            breakpoints={{
+                                1024: {
+                                    slidesPerView: 2,
+                                },
+                            }}
+                            className="mySwiper"
+                        >
                             {reviews.map((item)=>(
-                                <div key={item.id} className="">
+                                <SwiperSlide key={item.id}>
                                     <Review 
                                         review={item.review}
                                         reviewerName={item.reviewerName}
                                         reviewerType={item.reviewerType}
                                     />
-                                </div>
+                                </SwiperSlide>
                             ))}
-                        </div>
+                        </Swiper>
                     </div>
                 </Container>
             </div>
