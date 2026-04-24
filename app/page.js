@@ -5,6 +5,7 @@ import Services from '@/layouts/Services'
 import About from '@/layouts/About'
 import Projects from '@/layouts/Projects'
 import Work from '@/layouts/Work'
+import Feedback from '@/layouts/Feedback'
 
 export default function page() {
   return (
@@ -14,6 +15,7 @@ export default function page() {
       <About/>
       <Projects/>
       <Work/>
+      <Feedback/>
     </>
   )
 }

@@ -21,6 +21,10 @@
   box-shadow: 8px 8px 20px 3px rgba(147, 147, 147, 0.13);
 }
 
+.shadowNew3 {
+  box-shadow: 6px 6px 10px 0px rgba(227, 40, 70, 0.08);
+}
+
 .beforeAfter{
     @apply relative cursor-pointer duration-300 after:content-[""] after:absolute after:left-0 after:bottom-0 after:w-[75%] after:h-0.5 after:bg-primarys after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300
 }
