@@ -51,7 +51,6 @@ export default function Feedback() {
                         <h4 className='text-primarys text-lg font-medium font-vol text-center tracking-[2%]'>Client Testimonial</h4>
                     </div>
                     <h3 className='text-center text-[40px] lg:text-[50px] text-secondarys font-medium font-vol lg:px-75 pt-2.75 leading-15'>Feedback From Client</h3>
-                    
                     <div className="mt-10 pb-10">
                         <Swiper
                             modules={[Pagination]}
