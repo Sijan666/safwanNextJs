@@ -24,6 +24,13 @@ export default function Contact() {
                                 <h4 className='text-primarys text-lg font-medium font-vol text-center tracking-[2%]'>Get In Touch</h4>
                             </div>
                             <h3 className='text-center text-[40px] lg:text-[50px] text-secondarys font-medium font-vol  pt-2.75 leading-15'>Feel Free to Contact</h3>
+                            <div className="mt-10">
+                                <form>
+                                    <div className="flex gap-x-17.5">
+                                        <input type="text" placeholder='Enter Name' className='outline-none border-b py-3 border-secondarys lg:w-75'/>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </Container>
