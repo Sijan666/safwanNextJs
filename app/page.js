@@ -7,6 +7,7 @@ import Projects from '@/layouts/Projects'
 import Work from '@/layouts/Work'
 import Feedback from '@/layouts/Feedback'
 import Contact from '@/layouts/Contact'
+import Blog from '@/layouts/Blog'
 
 export default function page() {
   return (
@@ -18,6 +19,7 @@ export default function page() {
       <Work/>
       <Feedback/>
       <Contact/>
+      <Blog/>
     </>
   )
 }
