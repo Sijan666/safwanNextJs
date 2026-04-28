@@ -1,6 +1,7 @@
 import { Jost, Oswald, Vollkorn } from "next/font/google";
 import "./globals.css";
 import Navber from "@/layouts/Navber";
+import Footer from "@/layouts/Footer";
 
 
 const jost = Jost({
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
       <body className="flex flex-col">
         <Navber/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
