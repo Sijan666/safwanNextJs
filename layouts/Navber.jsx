@@ -56,13 +56,13 @@ export default function Navbar() {
                 ))}
               </ul>
             </nav>
-            {/* CTA Button & Hamburger */}
+            {/* CTA Button */}
             <div className="flex items-center gap-6">
-              {/* Desktop Button with Hover effect */}
+              {/* Desktop Button */}
               <div className="hidden sm:block hover:shadow-lg hover:-translate-y-1 transition-all duration-300 rounded-md">
                 <Button btnText="Download CV" />
               </div>
-              {/* Premium Custom Hamburger Menu (Mobile & Tab) */}
+              {/* Hamburger Menu Mobile */}
               <button 
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                 className="lg:hidden flex flex-col justify-center items-center w-8 h-8 space-y-1.5 focus:outline-none z-60 group"
@@ -75,7 +75,7 @@ export default function Navbar() {
           </div>
         </Container>
       </header>
-      {/* Mobile Menu - Full Screen Overlay */}
+      {/* Mobile Menu */}
       <div 
         className={`fixed inset-0 w-full h-screen bg-white/95 backdrop-blur-xl flex flex-col justify-center items-center z-40 transition-all duration-500 ease-in-out lg:hidden ${
           isMobileMenuOpen ? "opacity-100 visible translate-y-0" : "opacity-0 invisible -translate-y-8"
